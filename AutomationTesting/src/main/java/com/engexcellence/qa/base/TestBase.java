@@ -35,7 +35,7 @@ public class TestBase {
 	}
 	
 	/**
-	 * method
+	 * method name
 	 */
 	public static void initialization(){
 		
