@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Gmail Application Auomation Test Suite]">
+  <listeners>
+    <listener class-name="com.engexcellence.qa.extentreportlistener.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Gmail Application Test Cases(failed)">
+    <classes>
+      <class name="com.engexcellence.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="gmailLoginTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.engexcellence.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Gmail Application Test Cases(failed) -->
+</suite> <!-- Failed suite [Gmail Application Auomation Test Suite] -->
